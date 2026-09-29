@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 selector Basic</title>
+    <style>
+        /* * {color: aqua;} */
+        /* h1 {color: red;} */
+         p {color: blue;} 
+
+         #header{
+            width: 800px; margin:0 auto;
+            background:red;
+         }
+         #wrap{
+            width: 800px; margin:0 auto;
+            overflow:hidden;
+         }
+         #aside{
+            width: 200px; float: left;
+            background:blue;
+         }
+         #content{
+            width: 600px; float: left;
+            background:green;
+         }
+
+         #rint{color: aqua;}
+
+         .select{color: aquamarine;}
+
+         .item{color: red;}
+         .header{background-color: blue;}
+
+         li.select{color: blueviolet;}
+    </style>
+</head>
+
+<body>
+    <h2 id="rint">1. 전체 선택자</h2>
+    <h2 id="rint">2. 태그 선택자</h2>
+    <h2 id="rint">3. 아이디 선택자</h2>
+    <h2 class="item header">4. 클래스 선택자</h2>
+
+    <hr>
+
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li>오렌지</li>
+        <li class="select">감</li>
+    </ul>
+
+    <hr>
+
+    <h1>제목 글자</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam aperiam aliquid est? Blanditiis dolores, ex dolorum ratione sapiente quaerat optio molestiae, obcaecati ipsam culpa distinctio, esse hic recusandae aliquam?</p>
+
+    <hr>
+
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+
+</body>
